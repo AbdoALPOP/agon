@@ -1,0 +1,67 @@
+site_name: UK - USER AND SERVICE MANUAL
+# site_url: 
+site_description: Applies to L 2,0m B 0,8M conveyor, number 501101003 | This instruction manual has been prepared in accordance with the Machinery Directive 2006/42/EF
+theme:
+  name: material
+  logo: ./assets/Agon-logo.png
+  favicon: ./assets/Agon-favicon.png
+  language: en
+  features:
+    - navigation.footer
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: agon
+      accent: pink
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: pink
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  font:
+    text: Open Sans
+plugins:
+  - search
+  - glightbox
+  - open-in-new-tab
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+extra:
+  alternate:
+    - name: 🇺🇸 English
+      link: /en/ 
+      lang: en
+    - name: 🇩🇪 Deutsch
+      link: /de/
+      lang: de
+    - name: 🇫🇷 Français
+      link: /fr/
+      lang: fr
+    - name: 🇮🇹 Italiano
+      link: /it/
+      lang: it
+    - name: 🇪🇸 Español
+      link: /es/
+      lang: es
+    - name: 🇳🇱 Nederlands
+      link: /nl/
+      lang: nl
+
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: © 2024 | AGON A/S | VAT = DK31889480

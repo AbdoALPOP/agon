@@ -1,0 +1,9 @@
+[data-md-color-scheme="agon"] {
+    --md-primary-fg-color:        #002A47;
+    /* --md-primary-fg-color--light: #ce0f69; */
+    /* --md-primary-fg-color--dark:  #90030C; */
+  }
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #002A47;
+    --md-hue: 210; /* [0, 360] */
+}
